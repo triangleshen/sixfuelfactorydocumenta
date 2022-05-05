@@ -5,31 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecology</title>
+    <link rel="stylesheet" href="jQCloud-master_2/dist/jqcloud.css">
     <link rel="stylesheet" href="main_text_.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+    <script type="text/javascript" src="jQCloud-master_2/dist/jqcloud.js"></script>
+
+    <script type="text/javascript">
+        var word_list = [
+          {text: "霜毛蝠調查", weight: 10},
+          {text: "蝙蝠保母", weight: 9.8},
+          {text: "人蝠共存", weight: 9.5},
+          {text: "雞", weight: 9},
+          {text: "生態棲地", weight: 8},
+          {text: "城市菜園", weight: 7},
+          {text: "親水生活", weight: 7},
+          {text: "蝙蝠導覽與展示", weight: 6},
+          {text: "生態教育園地", weight: 6},
+          {text: "保溫連結", weight: 3},
+          {text: "步行城識", weight: 3},
+          {text: "六燃串點", weight: 2},
+          {text: "史料彙編", weight: 2},
+          {text: "眷村", weight: 2},
+          {text: "博物館", weight: 2},
+          {text: "口述歷史", weight: 2},
+          {text: "蝙蝠保母", weight: 2},
+          {text: "能源議題", weight: 2},
+          {text: "外省", weight: 2},
+          {text: "巡迴巴士", weight: 1},
+          {text: "新媒引力", weight: 1},
+          {text: "史料彙編", weight: 1},
+          {text: "美食地圖", weight: 1},
+          {text: "美軍", weight: 1},
+          {text: "駐站", weight: 1},
+          {text: "戰爭", weight: 1},
+          {text: "參考案例", weight: 1},
+          {text: "市集引力", weight: 1},
+          {text: "日常剪影", weight: 1},
+          {text: "新竹在地人", weight: 1},
+          {text: "歷史淵源", weight: 1},
+          {text: "新竹", weight: 1}
+        ];
+        $(function() {
+          $("#cloud").jQCloud(word_list,{
+            autoResize: true,
+            delay:80
+          });
+        });
+      </script>
 </head>
 <body>
     <main>
-        <section class="text_wrap">
-            <div class="title">
-                <h1>生態的六燃</h1>
-            </div>
-            <section class="first_page">
-                <div class="row1">
-                    <a href="javascript:">霜毛蝠調查</a>
-                    <a href="javascript:">蝙蝠保母</a>
-                    <a href="javascript:">人蝠共存</a>
-                </div>
-                <div class="row2">
-                    <a href="javascript:">季節性導覽</a>
-                    <a href="javascript:">生態教育園地</a>
-                </div>
-                <div class="row3">
-                    <a href="javascript:">生態棲地</a>
-                    <a href="javascript:">城市菜園</a>
-                    <a href="javascript:">親水生活</a>
-                </div>
-            </section>
-        </section>
+        <div class="title">
+            <h1>生態的六燃</h1>
+        </div>
+        <div id="cloud" class="first_page" ></div>
     </main>
 </body>
 </html>

@@ -5,12 +5,12 @@
  * Copyright 2014-2017 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (http://opensource.org/licenses/MIT)
  */
- @charset "utf-8";
- @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 
 .jqcloud {
   font: 10px "Helvetica", "Arial", sans-serif;
-  font-family:Cambria,"cwTeXFangSong", serif, Microsoft JhengHei;
+  font-family: Cambria, "cwTeXFangSong", serif, Microsoft JhengHei;
   line-height: normal;
   overflow: hidden;
   position: relative;
@@ -25,47 +25,61 @@
   color: #a58585;
   font-size: 300%;
 }
+
 .jqcloud-word.w2 {
   color: #917a7a;
   font-size: 350%;
 }
+
 .jqcloud-word.w3 {
   color: #7a6464;
   font-size: 400%;
 }
+
 .jqcloud-word.w4 {
   color: #6d5a5a;
   font-size: 450%;
 }
+
 .jqcloud-word.w5 {
   color: #534545;
   font-size: 500%;
 }
+
 .jqcloud-word.w6 {
   color: #645151;
   font-size: 600%;
 }
+
 .jqcloud-word.w7 {
   color: #630d0d;
   font-size: 700%;
 }
+
 .jqcloud-word.w8 {
   color: #630d0d;
   font-size: 900%;
 }
+
 .jqcloud-word.w9 {
   color: #630d0d;
   font-size: 950%;
 }
+
 .jqcloud-word.w10 {
   color: #630d0d;
   font-size: 1000%;
 }
+
 .jqcloud-word a {
   color: inherit;
   font-size: inherit;
   text-decoration: none;
+  border-radius: 10px;
+  background-image: radial-gradient(rgb(255, 221, 189, 1) 5%, rgba(255,255,255,0) 80%);
+  /* text-shadow: 0px 0px 5px #ff460d; */
 }
+
 .jqcloud-word a:hover {
-  color: #ff9494;
+  color: #ffa06a;
 }

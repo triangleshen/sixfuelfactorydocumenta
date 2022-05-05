@@ -77,7 +77,6 @@
   text-decoration: none;
   border-radius: 10px;
   background-image: radial-gradient(rgb(255, 221, 189, 1) 5%, rgba(255,255,255,0) 80%);
-  /* text-shadow: 0px 0px 5px #ff460d; */
 }
 
 .jqcloud-word a:hover {

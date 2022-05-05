@@ -27,15 +27,21 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(180, 182, 186, 0.9);
+    background-color: rgba(216, 193, 182, 0.9);
 }
 
 .title{
+    display: inline-block;
     margin-bottom: 50px;
-    width: 100%;
+    padding: 10px;
     text-align: center;
-    color: #3f3a3a;
+    color: #ffffff;
+    background-color: #800026;
     font-size: 50px;
+}
+
+h1{
+    font-weight: 100;
 }
 
 .first_page{
@@ -43,9 +49,8 @@ main{
     height: 500px;
 }
 
-/* .row1 a,.row2 a,.row3 a,.row4 a{
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    margin: auto 15px 30px 15px;
-} */
+
+.test{
+    color: #800026, #bd0026, #e31a1c, #fc4e2a, 
+    #fd8d3c, #feb24c, #fed976, #ffeda0, #ffffcc;
+}

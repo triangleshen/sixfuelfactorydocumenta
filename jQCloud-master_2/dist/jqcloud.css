@@ -5,12 +5,12 @@
  * Copyright 2014-2017 Damien "Mistic" Sorel (http://www.strangeplanet.fr)
  * Licensed under MIT (http://opensource.org/licenses/MIT)
  */
-@charset "utf-8";
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+/* @charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css); */
 
 .jqcloud {
   font: 10px "Helvetica", "Arial", sans-serif;
-  font-family: Cambria, "cwTeXFangSong", serif, Microsoft JhengHei;
+  /* font-family: Cambria, "cwTeXFangSong", serif, Microsoft JhengHei; */
   line-height: normal;
   overflow: hidden;
   position: relative;
@@ -22,53 +22,69 @@
 }
 
 .jqcloud-word.w1 {
-  color: #a58585;
+  color: #cdd2db;
   font-size: 300%;
 }
 
 .jqcloud-word.w2 {
-  color: #917a7a;
+  color: #f7b8ee;
   font-size: 350%;
 }
 
 .jqcloud-word.w3 {
-  color: #7a6464;
+  color: #969cf5;
   font-size: 400%;
 }
 
 .jqcloud-word.w4 {
-  color: #6d5a5a;
+  color: #f3da4d;
   font-size: 450%;
 }
 
 .jqcloud-word.w5 {
-  color: #534545;
+  color: #969cf5;
   font-size: 500%;
 }
 
 .jqcloud-word.w6 {
-  color: #645151;
+  color: #fa9e14;
   font-size: 600%;
+}
+.jqcloud-word.w6 a{
+  background-image: radial-gradient(rgb(255, 234, 211) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word.w7 {
-  color: #630d0d;
+  color: #00db91;
   font-size: 700%;
+}
+.jqcloud-word.w7 a{
+  background-image: radial-gradient(rgb(211, 255, 215) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word.w8 {
-  color: #630d0d;
+  color: #ff413e;
   font-size: 900%;
+}
+.jqcloud-word.w8 a{
+  background-image: radial-gradient(rgb(255, 181, 181) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word.w9 {
-  color: #630d0d;
+  color: #ff81ab;
   font-size: 950%;
+}
+.jqcloud-word.w9 a{
+  background-image: radial-gradient(rgb(255, 197, 226) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word.w10 {
-  color: #630d0d;
+  color: #1a6dff;
   font-size: 1000%;
+}
+
+.jqcloud-word.w10 a{
+  background-image: radial-gradient(rgb(192, 221, 253) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word a {
@@ -76,7 +92,6 @@
   font-size: inherit;
   text-decoration: none;
   border-radius: 10px;
-  background-image: radial-gradient(rgb(255, 221, 189, 1) 5%, rgba(255,255,255,0) 80%);
 }
 
 .jqcloud-word a:hover {

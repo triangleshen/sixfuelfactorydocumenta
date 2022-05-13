@@ -23,30 +23,27 @@
 
 .jqcloud-word.w1 {
   color: #cdd2db;
-  font-size: 300%;
+  font-size: 280%;
 }
 
 .jqcloud-word.w2 {
   color: #f7b8ee;
-  font-size: 350%;
+  font-size: 300%;
 }
 
 .jqcloud-word.w3 {
   color: #969cf5;
-  font-size: 400%;
+  font-size: 340%;
 }
 
 .jqcloud-word.w4 {
   color: #f3da4d;
-  font-size: 450%;
-}
-.jqcloud-word.w4 a{
-  background-image: radial-gradient(rgb(255, 234, 211) 5%, rgba(255,255,255,0.1) 80%);
+  font-size: 380%;
 }
 
 .jqcloud-word.w5 {
   color: #969cf5;
-  font-size: 500%;
+  font-size: 300%;
 }
 .jqcloud-word.w5 a{
   background-image: radial-gradient(rgb(225, 208, 255) 5%, rgba(255,255,255,0.1) 80%);
@@ -54,23 +51,23 @@
 
 .jqcloud-word.w6 {
   color: #fa9e14;
-  font-size: 600%;
+  font-size: 420%;
 }
 .jqcloud-word.w6 a{
-  background-image: radial-gradient(rgb(255, 234, 211) 5%, rgba(255,255,255,0.1) 80%);
+  background-image: radial-gradient(rgb(255, 216, 174) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word.w7 {
   color: #00db91;
-  font-size: 700%;
+  font-size: 480%;
 }
 .jqcloud-word.w7 a{
-  background-image: radial-gradient(rgb(211, 255, 215) 5%, rgba(255,255,255,0.1) 80%);
+  background-image: radial-gradient(rgb(194, 255, 199) 5%, rgba(255,255,255,0.1) 80%);
 }
 
 .jqcloud-word.w8 {
   color: #ff413e;
-  font-size: 900%;
+  font-size: 500%;
 }
 .jqcloud-word.w8 a{
   background-image: radial-gradient(rgb(255, 181, 181) 5%, rgba(255,255,255,0.1) 80%);
@@ -78,7 +75,7 @@
 
 .jqcloud-word.w9 {
   color: #ff81ab;
-  font-size: 950%;
+  font-size: 550%;
 }
 .jqcloud-word.w9 a{
   background-image: radial-gradient(rgb(255, 197, 226) 5%, rgba(255,255,255,0.1) 80%);
@@ -86,7 +83,7 @@
 
 .jqcloud-word.w10 {
   color: #1a6dff;
-  font-size: 1000%;
+  font-size: 600%;
 }
 
 .jqcloud-word.w10 a{
@@ -101,5 +98,5 @@
 }
 
 .jqcloud-word a:hover {
-  color: #ffbb3d;
+  color: #ffa06a;
 }

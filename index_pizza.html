@@ -5,24 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>披薩</title>
-    <link rel="stylesheet" href="jQCloud-master_2/dist/jqcloud.css">
-    <link rel="stylesheet" href="main_text_.css">
+    <link rel="stylesheet" href="jQCloud-master_2/dist/jqcloud_p.css">
+    <link rel="stylesheet" href="main_p.css">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="jQCloud-master_2/dist/jqcloud.js"></script>
 
     <script type="text/javascript">
         var word_list = [
-          {text: "博物館@公園", weight: 11, link: "poeple.html"},
-          {text: "博物館@校園", weight: 10, link: "learn.html"},
-          {text: "博物館@生態園", weight: 10, link: "value.html"},
-          {text: "博物館@遊樂園", weight: 10, link: "ecology.html"},
+          {text: "博物館@公園", weight: 15, link: "poeple.html"},
+          {text: "博物館@校園", weight: 13, link: "learn.html"},
+          {text: "博物館@生態園", weight: 12, link: "value.html"},
+          {text: "博物館@遊樂園", weight: 11, link: "ecology.html"},
           {text: "博物館@眷舍", weight: 10, link: "community.html"},
           {text: "博物館@社區教室", weight: 10, link: "roaming.html"},
-          {text: "博物館@社區圖書館", weight: 9.8, link: "gravitation.html"},
-          {text: "博物館@新媒體", weight: 9.7, link: "build.html"},
-          {text: "博物館@市集", weight: 8},
-          {text: "博物館@水圳", weight: 8},
-          {text: "博物館@餐廳", weight: 7},
+          {text: "博物館@社區圖書館", weight: 9, link: "gravitation.html"},
+          {text: "博物館@新媒體", weight: 8, link: "build.html"},
+          {text: "博物館@市集", weight: 8, link: "gravitation.html"},
+          {text: "博物館@水圳", weight: 7, link: "gravitation.html"},
+          {text: "博物館@餐廳", weight: 7, link: "gravitation.html"},
           {text: "六燃人物", weight: 3},
           {text: "社區串連", weight: 3},
           {text: "保溫連結", weight: 3},
@@ -55,7 +55,6 @@
         $(function() {
           $("#cloud").jQCloud(word_list,{
             autoResize: true,
-            colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],
             delay:80
           });
         });

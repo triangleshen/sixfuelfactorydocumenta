@@ -33,7 +33,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(252, 249, 238, 0.9);
+    background-color: rgba(250, 250, 250, 0.9);
 }
 
 .first_page{

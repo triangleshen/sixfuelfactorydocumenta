@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>大象</title>
-    <link rel="stylesheet" href="jQCloud-master_2/dist/jqcloud.css">
-    <link rel="stylesheet" href="main_text_.css">
+    <link rel="stylesheet" href="jQCloud-master_2/dist/jqcloud_e.css">
+    <link rel="stylesheet" href="main_e.css">
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="jQCloud-master_2/dist/jqcloud.js"></script>
 
@@ -14,12 +14,12 @@
         var word_list = [
           {text: "學習的移動", weight: 11, link: "poeple.html"},
           {text: "生命故事的移動", weight: 10, link: "learn.html"},
-          {text: "管理權責的移動", weight: 10, link: "value.html"},
-          {text: "開放時間的移動", weight: 10, link: "ecology.html"},
-          {text: "交通工具的移動", weight: 10, link: "community.html"},
-          {text: "歷史場景的移動", weight: 10, link: "roaming.html"},
-          {text: "記憶味道的移動", weight: 9.8, link: "gravitation.html"},
-          {text: "探討議題的移動", weight: 9.7, link: "build.html"},
+          {text: "管理權責的移動", weight: 9, link: "value.html"},
+          {text: "開放時間的移動", weight: 9, link: "ecology.html"},
+          {text: "交通工具的移動", weight: 8, link: "community.html"},
+          {text: "歷史場景的移動", weight: 8, link: "roaming.html"},
+          {text: "記憶味道的移動", weight: 7, link: "gravitation.html"},
+          {text: "探討議題的移動", weight: 7, link: "build.html"},
           {text: "藝文場所", weight: 4},
           {text: "霜毛蝠", weight: 3},
           {text: "發掘歷史", weight: 3},
@@ -55,7 +55,6 @@
         $(function() {
           $("#cloud").jQCloud(word_list,{
             autoResize: true,
-            colors: ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],
             delay:80
           });
         });

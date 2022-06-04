@@ -160,7 +160,7 @@
     letter-spacing: 1px;
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:1200px){
 
     /* =========圖片區========= */
     #imgDev{
@@ -171,8 +171,8 @@
 
     #img{
         width: 200%;
-        right: 400px;
-        top: -250px;
+        right: 500px;
+        top: -300px;
     }
 
     #topic{

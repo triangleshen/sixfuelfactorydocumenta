@@ -1,18 +1,3 @@
-/* =========主要區域========= */
-main{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    overflow: hidden;
-}
-
-
-/* =========互動區========= */
-
-
 /* =========圖片區========= */
 
 #imgDev{
@@ -174,12 +159,12 @@ main{
     letter-spacing: 1px;
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width:1200px){
 
     /* =========圖片區========= */
     #imgDev{
         width: 85%;
-        height: 70vh;
+        height: 83vh;
         right: 30px;
     }
 
@@ -193,7 +178,7 @@ main{
 
     #topic_center{
         right:20px;
-        bottom: -100px;
+        bottom: -150px;
     
         font-size: 54px;
         text-align: center;

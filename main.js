@@ -224,14 +224,14 @@ function goBack(){
 function init(){
 
     // ===== 點主選單 ===== //
-    let keywords = document.querySelectorAll('.keyWords');
-    let blur = document.querySelectorAll('.blur');
+    let keywords = document.querySelectorAll('.keyWords',true);
+    let span = document.getElementsByTagName('span');
 
     for(let i = 0; i<keywords.length;i++){
         keywords[i].addEventListener('click',clickBtn);
     };
-    for(let i = 0; i<blur.length;i++){
-        blur[i].addEventListener('click',clickBtn);
+    for(let i = 0; i<span.length;i++){
+        span[i].parentElement.addEventListener('click',clickBtn);
     };
 
     // ===== 回主選單 ===== //

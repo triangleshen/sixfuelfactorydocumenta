@@ -187,6 +187,11 @@ main{
 
     h2{
         font-size: 80px;
+        right: -10px;
+    }
+
+    main{
+        display:block;
     }
 
     /* =========圖片區========= */

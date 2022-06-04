@@ -178,7 +178,7 @@
 
     #topic_center{
         right:20px;
-        bottom: -150px;
+        bottom: -200px;
     
         font-size: 54px;
         text-align: center;
@@ -188,13 +188,22 @@
     .keyWords{
         font-size: 28px;
     }
+
+    .keyWords:nth-child(1){
+        top:20%;
+    }
+    
+    .keyWords:nth-child(2){
+        top:33%;
+    }
     
     .keyWords:nth-child(3){
-        top:38%;
+        top:48%;
         left: 81%;
     }
     
     .keyWords:nth-child(4){
+        top:75%;
         left: 69%;
     }
     
@@ -214,15 +223,17 @@
     }
     
     .keyWords:nth-child(8){
+        top:48%;
         left: 25%;
     }
     
     .keyWords:nth-child(9){
+        top:33%;
         left: 28%;
     }
     
     .keyWords:nth-child(10){
-        top: 6%;
+        top: 20%;
     }
 
     /* =========左上標題========= */

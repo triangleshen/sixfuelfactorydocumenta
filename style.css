@@ -200,6 +200,12 @@ main{
         right: 100px;
     }
 
+    #img{
+        width: 120%;
+        right: -80px;
+        bottom: -80px;
+    }
+
     #topic{
         width: 80%;
         padding: 10px;
@@ -207,7 +213,7 @@ main{
         
         bottom: 50px;
         left: 30px;
-        transform: rotate(4deg);
+        transform: rotate(6deg);
 
         gap: 15px;
     }

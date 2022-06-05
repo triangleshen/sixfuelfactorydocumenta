@@ -168,6 +168,11 @@
         right: 30px;
     }
 
+    #img{
+        right: -60px;
+        bottom: -150px;
+    }
+
     #topic{
         width: 80%;
         padding: 10px;

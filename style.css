@@ -201,8 +201,8 @@ main{
     }
 
     #img{
-        width: 105%;
-        right: 0px;
+        width: 115%;
+        right: -30px;
         bottom: -90px;
     }
 
@@ -211,7 +211,7 @@ main{
         padding: 10px;
 
         
-        bottom: 50px;
+        bottom: 25px;
         left: 10px;
         transform: rotate(6deg);
 
@@ -225,7 +225,7 @@ main{
     /* =========左上標題========= */
     #lt{
         padding-left: 20px;
-        font-size: 20px;
+        font-size: 24px;
         line-height: 25px;
     }
 

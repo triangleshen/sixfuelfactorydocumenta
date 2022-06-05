@@ -201,9 +201,9 @@ main{
     }
 
     #img{
-        width: 120%;
-        right: -80px;
-        bottom: -80px;
+        width: 130%;
+        right: -120px;
+        bottom: -100px;
     }
 
     #topic{
@@ -219,14 +219,14 @@ main{
     }
 
     .keyWords{
-        font-size: 28px;
+        font-size: 24px;
     }
 
-    /* =========左上標題========= */
+    /* =========左上標題=======git== */
     #lt{
         padding-left: 20px;
-        font-size: 20px;
-        line-height: 25px;
+        /* font-size: 20px;
+        line-height: 25px; */
     }
 
     /* =========左下文字========= */

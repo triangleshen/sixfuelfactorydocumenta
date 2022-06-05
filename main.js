@@ -10,6 +10,8 @@ function clickBtn(e){
     let word =document.getElementById('word');
     let word_title_txt =document.getElementById('word_title_txt');
     let word_text =document.getElementById('word_text');
+    let back = document.getElementById('back');
+
     // pizza 用的中央標題 //
     if(!!document.getElementById('topic_center') == true){
         var topic_center = document.getElementById('topic_center');
@@ -17,11 +19,11 @@ function clickBtn(e){
 
     
         lt.style.display = 'none';
-        
         topic.style.opacity = '0';
         topic.style.zIndex = '-1';
         img.style.opacity = '.2';
         word.style.opacity = '1';
+        back.style.width = '50px';
 
         // ===== 關閉pizza中央標題 ===== //
         if(!!document.getElementById('topic_center') == true){
@@ -153,12 +155,15 @@ function goBack(){
     let topic =document.getElementById('topic');
     let img =document.getElementById('img');
     let word =document.getElementById('word');
+    let back = document.getElementById('back');
     
+
     lt.style.display = 'block';
     topic.style.opacity = '1';
     topic.style.zIndex = '1';
     img.style.opacity = '1';
     word.style.opacity = '0';
+    back.style.width = '0px';
 
     word_text.innerHTML = '';
 

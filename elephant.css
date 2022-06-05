@@ -33,12 +33,12 @@
 
 .keyWords{
     display: inline-block;
-    background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.2),rgba(255,255,255,.0),rgba(255,255,255,0));
+    background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.0),rgba(255,255,255,0),rgba(255,255,255,.0),rgba(255,255,255,0));
     font-size: 36px;
     letter-spacing: 2px;
     line-height: 50px;
     cursor: pointer;
-    z-index: 5;
+    z-index: 1000;
 
     position: absolute;
 }

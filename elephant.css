@@ -33,7 +33,7 @@
 
 .keyWords{
     display: inline-block;
-    background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.0),rgba(255,255,255,0));
+    background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.2),rgba(255,255,255,.0),rgba(255,255,255,0));
     font-size: 36px;
     letter-spacing: 2px;
     line-height: 50px;
@@ -179,8 +179,8 @@
         width: 80%;
         padding: 10px;
 
-        bottom: 50px;
-        left: 120px;
+        bottom: 80px;
+        left: 80px;
     }
 
     .keyWords{
@@ -233,13 +233,14 @@
     .keyWords:nth-child(8){
         writing-mode:vertical-rl;
         text-orientation: upright;
-        top: 48%;
-        left: 75%;
+        top: 43%;
+        left: 80%;
     }
     
     .keyWords:nth-child(9){
-        top: 80%;
-        left: 70%;
+        text-align: end;
+        top: 65%;
+        left: 72%;
     }
 
     /* =========左上標題========= */

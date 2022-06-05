@@ -201,9 +201,9 @@ main{
     }
 
     #img{
-        width: 130%;
-        right: -120px;
-        bottom: -100px;
+        width: 105%;
+        right: 0px;
+        bottom: -90px;
     }
 
     #topic{
@@ -212,21 +212,21 @@ main{
 
         
         bottom: 50px;
-        left: 30px;
+        left: 10px;
         transform: rotate(6deg);
 
         gap: 15px;
     }
 
     .keyWords{
-        font-size: 24px;
+        font-size: 28px;
     }
 
-    /* =========左上標題=======git== */
+    /* =========左上標題========= */
     #lt{
         padding-left: 20px;
-        /* font-size: 20px;
-        line-height: 25px; */
+        font-size: 20px;
+        line-height: 25px;
     }
 
     /* =========左下文字========= */

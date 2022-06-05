@@ -15,7 +15,7 @@ function clickBtn(e){
         var topic_center = document.getElementById('topic_center');
     }
 
-    if(e.target.classList.contains('blur') == false){
+    
         lt.style.display = 'none';
         
         topic.style.opacity = '0';
@@ -105,35 +105,6 @@ function clickBtn(e){
                 choose_topic = traArr;
                 break;
 
-            // ===== 大象主題 ===== //
-            case `<span>故事詮釋</span><br>的移動`:
-                choose_topic = storyArr;
-                break;
-            case '<span>記憶味道</span><br>的移動':
-                choose_topic = memotestArr;
-                break;
-            case '<span>人員參與</span><br>的移動':
-                choose_topic = pplArr;
-                break;
-            case '<span>校本課程</span>的移動':
-                choose_topic = lessonArr;
-                break;
-            case '<span>空間開放</span><br>的移動':
-                choose_topic = spaceArr;
-                break;
-            case '<span>交通方式</span><br>的移動':
-                choose_topic = traArr;
-                break;
-            case '<span>故事景點</span><br>的移動':
-                choose_topic = storySpotArr;
-                break;
-            case '<span>焦點引燃</span><br>的移動':
-                choose_topic = focueArr;
-                break;
-            case '<span>議題探索</span><br>的移動':
-                choose_topic = topicArr;
-                break;
-
             // ===== 披薩主題 ===== //
             case '藝文創作':
                 choose_topic = artArr;
@@ -171,21 +142,7 @@ function clickBtn(e){
 
         for(let i = 1; i < choose_topic.length;i++){
             word_text.innerHTML += `<div class="txt">${choose_topic[i]}</div>`;
-        }
-
-    }else{
-        let keywords = document.querySelectorAll('.keyWords');
-        for(let i = 0; i<keywords.length;i++){
-            if(e.target == keywords[i]){
-                keywords[i].classList.remove('blur');
-            }else{
-                keywords[i].classList.add('blur');
-            };
-        };
-    }
-    
-    
-    
+        }  
 }
 
 
@@ -205,15 +162,6 @@ function goBack(){
 
     word_text.innerHTML = '';
 
-
-    // ===== 大象頁面標題重新模糊 ===== //
-    if(document.getElementById('num').innerText == 2){ 
-        let keywords = document.querySelectorAll('.keyWords');
-        for(let i = 0; i<keywords.length;i++){
-            keywords[i].classList.add('blur');
-        }
-    }
-
     // ===== 關閉pizza中央標題 ===== //
     if(!!document.getElementById('topic_center') == true){ 
         topic_center.style.display = 'block';
@@ -225,13 +173,9 @@ function init(){
 
     // ===== 點主選單 ===== //
     let keywords = document.querySelectorAll('.keyWords',true);
-    let span = document.getElementsByTagName('span');
 
     for(let i = 0; i<keywords.length;i++){
         keywords[i].addEventListener('click',clickBtn);
-    };
-    for(let i = 0; i<span.length;i++){
-        span[i].parentElement.addEventListener('click',clickBtn);
     };
 
     // ===== 回主選單 ===== //

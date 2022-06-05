@@ -183,7 +183,7 @@
 
     #topic_center{
         right:20px;
-        bottom: -160px;
+        bottom: -200px;
     
         font-size: 54px;
         text-align: center;
@@ -209,27 +209,27 @@
     }
     
     .keyWords:nth-child(4){
-        top:80%;
-        left: 71%;
+        top:78%;
+        left: 73%;
         transform: rotate(-40deg);
     }
     
     .keyWords:nth-child(5){
-        top: 90%;
+        top: 88%;
         left: 58%;
         transform: rotate(-15deg);
     }
     
     
     .keyWords:nth-child(6){
-        top: 90%;
+        top: 88%;
         left: 42%;
         transform: rotate(17deg);
     }
     
     .keyWords:nth-child(7){
-        top: 80%;
-        left: 27%;
+        top: 78%;
+        left: 26%;
     }
     
     .keyWords:nth-child(8){

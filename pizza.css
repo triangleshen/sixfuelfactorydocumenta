@@ -183,7 +183,7 @@
 
     #topic_center{
         right:20px;
-        bottom: -200px;
+        bottom: -160px;
     
         font-size: 54px;
         text-align: center;
@@ -195,68 +195,53 @@
     }
 
     .keyWords:nth-child(1){
-        top:20%;
+        top:15%;
     }
     
     .keyWords:nth-child(2){
-        top:33%;
+        top:31%;
     }
     
     .keyWords:nth-child(3){
         top:48%;
-        left: 81%;
+        left: 83%;
     }
     
     .keyWords:nth-child(4){
-        top:75%;
-        left: 69%;
+        top:78%;
+        left: 71%;
+        transform: rotate(-48deg);
     }
     
     .keyWords:nth-child(5){
+        top: 88%;
         left: 58%;
         transform: rotate(-15deg);
     }
     
     
     .keyWords:nth-child(6){
-        left: 44%;
-        transform: rotate(20deg);
+        top: 88%;
+        left: 43%;
+        transform: rotate(17deg);
     }
     
     .keyWords:nth-child(7){
-        left: 30%;
+        top: 78%;
+        left: 27%;
     }
     
     .keyWords:nth-child(8){
-        top:48%;
-        left: 25%;
+        top:50%;
+        left: 20%;
     }
     
     .keyWords:nth-child(9){
-        top:33%;
-        left: 28%;
+        top:30%;
+        left: 24%;
     }
     
     .keyWords:nth-child(10){
-        top: 20%;
-    }
-
-    /* =========左上標題========= */
-    #lt{
-        padding-left: 20px;
-        font-size: 20px;
-        line-height: 25px;
-    }
-
-    /* =========左下文字========= */
-    #word{
-        padding-left: 20px;
-        max-width: 70%;
-    }
-
-    .txt{
-        padding: 10px 0px;
-        font-size: 18px;
-        line-height: 20px;
+        top:14%;
     }
 }

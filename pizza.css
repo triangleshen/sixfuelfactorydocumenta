@@ -177,8 +177,8 @@
         width: 80%;
         padding: 10px;
         
-        bottom: 40px;
-        left: 20px;
+        bottom: 60px;
+        left: 10px;
     }
 
     #topic_center{
@@ -192,6 +192,7 @@
 
     .keyWords{
         font-size: 28px;
+        padding: 15px;
     }
 
     .keyWords:nth-child(1){
@@ -208,26 +209,26 @@
     }
     
     .keyWords:nth-child(4){
-        top:78%;
+        top:80%;
         left: 71%;
-        transform: rotate(-48deg);
+        transform: rotate(-40deg);
     }
     
     .keyWords:nth-child(5){
-        top: 88%;
+        top: 90%;
         left: 58%;
         transform: rotate(-15deg);
     }
     
     
     .keyWords:nth-child(6){
-        top: 88%;
-        left: 43%;
+        top: 90%;
+        left: 42%;
         transform: rotate(17deg);
     }
     
     .keyWords:nth-child(7){
-        top: 78%;
+        top: 80%;
         left: 27%;
     }
     
@@ -243,5 +244,6 @@
     
     .keyWords:nth-child(10){
         top:14%;
+        left: 40%;
     }
 }

@@ -204,6 +204,10 @@ main{
         display:block;
     }
 
+    .title{
+        text-orientation: upright;
+    }
+
     /* =========圖片區========= */
     #imgDev{
         width: 65%;

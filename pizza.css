@@ -186,7 +186,7 @@
 
     #topic_center{
         right:20px;
-        bottom: -200px;
+        bottom: -250px;
     
         font-size: 54px;
         text-align: center;
@@ -208,7 +208,7 @@
     
     .keyWords:nth-child(3){
         top:48%;
-        left: 80%;
+        left: 70%;
     }
     
     .keyWords:nth-child(4){
@@ -237,7 +237,7 @@
     
     .keyWords:nth-child(8){
         top:50%;
-        left: 17%;
+        left: 7%;
     }
     
     .keyWords:nth-child(9){

@@ -220,7 +220,7 @@ main{
 
     .keyWords{
         font-size: 28px;
-        /* padding:0px 10px; */
+        padding:0px 10px;
     }
 
     /* =========左上標題========= */
@@ -236,9 +236,9 @@ main{
         max-width: 70%;
     }
 
-    .txt{
+    /* .txt{
         padding: 10px 0px;
         font-size: 18px;
         line-height: 20px;
-    }
+    } */
 }

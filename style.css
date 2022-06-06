@@ -98,6 +98,8 @@ main{
     position: absolute;
     right: 0px;
     bottom: -50px;
+    
+    transform: scale(-1,1);
 }
 
 
@@ -110,7 +112,7 @@ main{
     position: absolute;
     bottom: 20px;
     left: 60px;
-    transform: rotate(5deg);
+    transform: rotate(-5deg);
 
 
     display: flex;
@@ -230,16 +232,16 @@ main{
         padding: 10px;
 
         
-        bottom: 25px;
-        left: 10px;
-        transform: rotate(8deg);
+        bottom: 95px;
+        left: 60px;
+        transform: rotate(-6deg);
 
         gap: 20px;
     }
 
     .keyWords{
         font-size: 28px;
-        padding:0px 10px;
+        padding:15px 10px;
     }
 
     /* =========左上標題========= */

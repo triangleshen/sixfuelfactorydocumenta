@@ -238,12 +238,12 @@ main{
         left: 60px;
         transform: rotate(-6deg);
 
-        gap: 20px;
+        gap: 30px;
     }
 
     .keyWords{
         font-size: 28px;
-        padding:25px 10px;
+        padding:10px 10px;
     }
 
     /* =========左上標題========= */

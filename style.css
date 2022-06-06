@@ -20,7 +20,9 @@ img{
 
 .title{
     writing-mode:vertical-rl;
+    -webkit-box-writing-mode:vertical-rl;
     text-orientation: upright;
+    -webkit-text-orientation: upright;
     position: absolute;
     top: 30px;
     right: 0px;
@@ -194,11 +196,11 @@ main{
     }
 
     h1{
-        font-size: 36px;
+        font-size: 40px;
     }
 
     h2{
-        font-size: 60px;
+        font-size: 80px;
         right: -10px;
     }
 

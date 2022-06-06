@@ -109,7 +109,11 @@ function clickBtn(e){
     if(e.target.classList.contains('blur') == false){
         lt.style.display = 'none';
         
+            
+        lt.style.display = 'none';
+        lt.classList.remove('animate__fadeInDown');
         topic.style.opacity = '0';
+        topic.classList.remove('animate__fadeIn');
         topic.style.zIndex = '-1';
         img.style.opacity = '.2';
         word.style.opacity = '1';
@@ -176,9 +180,11 @@ function clickBtn(e){
         }
         console.log(choose_topic);
         word_title_txt.innerText = choose_topic[0];
+        word_title_txt.classList.add('animate__fadeInDown');
+        back.classList.add('animate__fadeInDown');
 
         for(let i = 1; i < choose_topic.length;i++){
-            word_text.innerHTML += `<div class="txt">${choose_topic[i]}</div>`;
+            word_text.innerHTML += `<div class="txt animate__animated animate__fadeInDown">${choose_topic[i]}</div>`;
         }
 
     }else{
@@ -203,20 +209,23 @@ function clickBtn(e){
 // ===== 返回主選單 ===== //
 function goBack(){
     let lt = document.getElementById('lt');
-    let topic_center =document.getElementById('topic_center');
     let topic =document.getElementById('topic');
     let img =document.getElementById('img');
     let word =document.getElementById('word');
     let back = document.getElementById('back');
     
     lt.style.display = 'block';
-    topic.style.opacity = '1';
     topic.style.zIndex = '1';
     img.style.opacity = '1';
     word.style.opacity = '0';
     back.style.width = '0px';
 
     word_text.innerHTML = '';
+
+    lt.classList.add('animate__fadeInDown');
+    lt.style.opacity = '1';
+    topic.classList.add('animate__fadeIn');
+    topic.style.opacity = '1';
 
 
     // ===== 大象頁面標題重新模糊 ===== //
@@ -233,6 +242,11 @@ function goBack(){
 }
 
 function init(){
+
+    lt.classList.add('animate__fadeInDown');
+    lt.style.opacity = '1';
+    topic.classList.add('animate__fadeIn');
+    topic.style.opacity = '1';
 
     // ===== 點主選單 ===== //
     let keywords = document.querySelectorAll('.keyWords',true);

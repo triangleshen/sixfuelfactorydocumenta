@@ -135,6 +135,8 @@ main{
     line-height: 35px;
     opacity: 1;
     /* opacity: 0; */
+
+    z-index: -1;
 }
 
 

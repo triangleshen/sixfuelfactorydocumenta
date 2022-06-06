@@ -178,7 +178,7 @@ main{
 
 @media screen and (max-width:1200px){
     #num{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     h1{
@@ -215,11 +215,12 @@ main{
         left: 10px;
         transform: rotate(6deg);
 
-        gap: 10px;
+        gap: 20px;
     }
 
     .keyWords{
         font-size: 28px;
+        /* padding:0px 10px; */
     }
 
     /* =========左上標題========= */

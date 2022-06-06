@@ -162,6 +162,16 @@ main{
     width: 50px;
     height: 50px;
     cursor: pointer;
+    animation: back .7s linear 0s infinite alternate;
+}
+
+@keyframes back {
+    from {
+        transform: scale(1,1);
+    }
+    to {
+        transform: scale(0.8,0.8);
+    }
 }
 
 #word_text{
@@ -236,9 +246,10 @@ main{
         max-width: 70%;
     }
 
-    /* .txt{
-        padding: 10px 0px;
-        font-size: 18px;
-        line-height: 20px;
-    } */
+    .txt{
+        padding: 15px 0px;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 1.2px;
+    }
 }

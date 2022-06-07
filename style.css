@@ -101,6 +101,7 @@ main{
 }
 
 .pie_img{
+    -webkit-transform: scale(-1,1);
     transform: scale(-1,1);
 }
 
@@ -112,9 +113,9 @@ main{
     background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.0),rgba(255,255,255,0));
 
     position: absolute;
-    bottom: 20px;
-    left: 60px;
-    transform: rotate(-5deg);
+    bottom: 120px;
+    left: 200px;
+    transform: rotate(-6deg);
 
 
     display: flex;
@@ -129,6 +130,7 @@ main{
     letter-spacing: 2px;
     cursor: pointer;
     z-index: 5;
+    padding: 20px 0px;
 }
 
 
@@ -196,7 +198,9 @@ main{
 
 @media screen and (max-width:1200px){
     #num{
-        font-size: 30px;
+        font-size: 54px;
+        font-weight: bold;
+        
     }
 
     h1{
@@ -249,8 +253,8 @@ main{
     /* =========左上標題========= */
     #lt{
         padding-left: 20px;
-        font-size: 24px;
-        line-height: 25px;
+        font-size: 32px;
+        line-height: 35px;
     }
 
     /* =========左下文字========= */

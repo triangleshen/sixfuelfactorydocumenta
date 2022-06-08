@@ -10,6 +10,7 @@
 
 body{
     font-family: 'wctmt';
+    /* overflow: hidden; */
 }
 
 img{
@@ -19,26 +20,13 @@ img{
 /* =========右邊標題========= */
 
 .title{
-    -webkit-box-writing-mode:vertical-rl;
-    writing-mode:vertical-rl;
-    -webkit-text-orientation: upright;
-    text-orientation: upright;
-    position: absolute;
     top: 30px;
-    right: 0px;
     z-index: 10;
 }
 
 #num,h1,h2{
     display: inline-block;
     letter-spacing: 5px;
-}
-
-#num{
-    position: relative;
-    right: 0px;
-    top: 10px;
-    font-size: 60px;
 }
 
 #num::before{
@@ -56,15 +44,11 @@ img{
 
 h1{
     position: relative;
-    top: 10px;
-    right: -40px;
     font-size: 50px;
 }
 
 h2{
     position: relative;
-    top: 30px;
-    right: 10px;
     font-size: 90px;
 }
 
@@ -76,28 +60,15 @@ main{
     flex-direction: column;
     justify-content: center;
 
-    overflow: hidden;
 }
-
-
-/* =========互動區========= */
-
 
 /* =========圖片區========= */
 
 #imgDev{
-    width: 50%;
-    height: 50vh;
+    width: 800px;
     position: absolute;
-    right: 300px;
-    bottom: 20px;
-}
-
-
-#img{
-    position: absolute;
-    right: 0px;
-    bottom: -50px;
+    right: 200px;
+    top:20px;
 }
 
 .pie_img{
@@ -107,15 +78,13 @@ main{
 
 
 #topic{
-    width: 60%;
-    height: 100%;
-    padding: 100px 100px;
+    width: 500px;
     background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.0),rgba(255,255,255,0));
 
     position: absolute;
-    bottom: 120px;
-    left: 200px;
-    transform: rotate(-6deg);
+    top:240px;
+    left:190px;
+    transform: rotate(-7deg);
 
 
     display: flex;
@@ -126,11 +95,11 @@ main{
 }
 
 .keyWords{
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 2px;
     cursor: pointer;
     z-index: 5;
-    padding: 20px 0px;
+    padding: 7px 0px;
 }
 
 
@@ -196,11 +165,10 @@ main{
     letter-spacing: 1px;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1300px){
     #num{
         font-size: 54px;
         font-weight: bold;
-        
     }
 
     h1{
@@ -223,31 +191,7 @@ main{
 
     /* =========圖片區========= */
     #imgDev{
-        width: 65%;
-        right: 100px;
-    }
-
-    #img{
-        width: 115%;
-        right: -30px;
-        bottom: -90px;
-    }
-
-    #topic{
-        width: 80%;
-        padding: 10px;
-
-        
-        bottom: 90px;
-        left: 60px;
-        transform: rotate(-6deg);
-
-        gap: 30px;
-    }
-
-    .keyWords{
-        font-size: 28px;
-        padding:20px 10px;
+        right: 150px;
     }
 
     /* =========左上標題========= */
@@ -259,14 +203,129 @@ main{
 
     /* =========左下文字========= */
     #word{
+        padding-top: 10px;
         padding-left: 20px;
         max-width: 70%;
     }
 
     .txt{
+        top:240px;
+        left:190px;
         padding: 15px 0px;
         font-size: 26px;
         line-height: 30px;
         letter-spacing: 1.2px;
     }
+}
+
+
+@media screen and (max-width:996px){
+    /* =========圖片區========= */
+    #imgDev{
+        width: 600px;
+        right: 150px;
+        top:100px;
+    }
+
+    #topic{
+        width: 400px;
+        
+        top:175px;
+        left:120px;
+        transform: rotate(-5deg);
+        gap: 15px;
+    }
+
+    .keyWords{
+        font-size: 26px;
+        padding: 7px 0px;
+    }
+
+}
+
+
+/* =========手機以上通用設定==========*/
+@media screen and (min-width:768px){
+    /* =========右邊標題========= */
+    .title{
+        -webkit-box-writing-mode:vertical-rl;
+        writing-mode:vertical-rl;
+        -webkit-text-orientation: upright;
+        text-orientation: upright;
+        position: absolute;
+        right: 10px;
+    }
+
+    #num{
+        position: relative;
+        right: 0px;
+        top: 10px;
+        font-size: 60px;
+    }
+
+    #num,h1,h2{
+    display: inline-block;
+    letter-spacing: 5px;
+    }
+
+    h1{
+        top: 10px;
+        right: -40px;
+    }
+    
+    h2{
+        top: 30px;
+        right: 10px;
+    }
+}
+
+@media screen and (max-width:768px){
+    /* =========右邊標題========= */
+    .title{
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 100px;
+    }
+    #num::before{
+        top:50px;
+        right: 0px;
+    }
+
+    h1{
+        top: 30px;
+        right: 30px;
+    }
+
+    h2{
+        top: 30px;
+        right: 20px;
+    }
+    
+    /* =========左上標題========= */
+    #lt{
+        padding-top: 70px;
+        padding-left: 20px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    /* =========圖片區========= */
+    #imgDev{
+        width: 630px;
+        right: -30px;
+        top:250px;
+    }
+
+    #topic{
+        width: 400px;
+        
+        top:180px;
+        left:130px;
+        gap: 20px;
+    }
+
+    .keyWords{
+        font-size: 26px;
+        padding: 7px 0px;
+    }
+
 }

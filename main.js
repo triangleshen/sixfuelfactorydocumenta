@@ -1,6 +1,6 @@
 let $id = document.getElementById;
 let choose_topic;
-let pie_time = 6700;
+let pie_time = 3000;
 let pizza_time = 7700;
 
 
@@ -199,7 +199,7 @@ function goBack(){
             img.src = 'img/pie.PNG';
         },pie_time);
     }if (num.innerText == 3) {
-        img.src = 'img/Pizzas03.gif';
+        img.src = 'img/Pizzas.gif';
         // setTimeout(function(){
         // },(pizza_time-500));
         setTimeout(function(){

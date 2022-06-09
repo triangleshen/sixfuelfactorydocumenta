@@ -24,6 +24,7 @@ function clickBtn(e){
     lt.classList.remove('animate__fadeInDown');
     topic.style.opacity = '0';
     topic.classList.remove('animate__fadeIn');
+    topic.style.display = 'none';
     topic.style.zIndex = '-1';
     img.style.opacity = '.2';
     word.style.opacity = '1';
@@ -57,17 +58,17 @@ function clickBtn(e){
         case '童樂派':
             choose_topic = childArr;
             break;
-        case '情史派':
-            choose_topic = loveArr;
+        case '打拚派':
+            choose_topic = workArr;
             break;
         case '名人派':
             choose_topic = celeArr;
             break;
-        case '打拚派':
-            choose_topic = workArr;
+        case '戰爭派':
+            choose_topic = warArr;
             break;
-        case '回味派':
-            choose_topic = memoArr;
+        case '交通派':
+            choose_topic = traArr;
             break;
         case '覓食派':
             choose_topic = foodArr;
@@ -84,11 +85,11 @@ function clickBtn(e){
         case '移居派':
             choose_topic = liveArr;
             break;
-        case '教育派':
-            choose_topic = eduArr;
+        case '教師派':
+            choose_topic = teaArr;
             break;
-        case '學習派':
-            choose_topic = learnArr;
+        case '學生派':
+            choose_topic = stuArr;
             break;
         case '保溫派':
             choose_topic = bwArr;
@@ -101,15 +102,6 @@ function clickBtn(e){
             break;
         case '廢墟派':
             choose_topic = ruinArr;
-            break;
-        case '戰爭派':
-            choose_topic = warArr;
-            break;
-        case '康樂派':
-            choose_topic = clArr;
-            break;
-        case '交通派':
-            choose_topic = traArr;
             break;
 
         // ===== 披薩主題 ===== //
@@ -150,9 +142,15 @@ function clickBtn(e){
     back.classList.add('animate__fadeInDown');
 
     for(let i = 1; i < choose_topic.length;i++){
-        word_text.innerHTML += `<div class="txt animate__animated animate__fadeInDown">${choose_topic[i]}</div>`;
+        word_text.innerHTML += `<div class="txt animate__animated animate__fadeInDown"><span style="font-weight:bold;font-size:28px"># </span>${choose_topic[i]}</div>`;
 
     } 
+
+    if(num.innerText == 1){
+        img.src = 'img/pie.PNG';
+    }if (num.innerText == 3) {
+        img.src = 'img/Pizza 0087.png';
+    }
 }
 
 
@@ -169,7 +167,8 @@ function goBack(){
 
     lt.style.display = 'block';
     lt.style.opacity = '0';
-    topic.style.opacity = '0';
+    // topic.style.opacity = '0';
+    topic.style.display = 'flex';
     topic.style.zIndex = '1';
     img.style.opacity = '1';
     word.style.opacity = '0';

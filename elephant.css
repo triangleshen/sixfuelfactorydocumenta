@@ -94,6 +94,7 @@ main{
     font-size: 36px;
     letter-spacing: 2px;
     line-height: 50px;
+    padding: 7px 0px;
     cursor: pointer;
     z-index: 1000;
 
@@ -284,12 +285,6 @@ main{
         left: 50%;
     }
 
-    /* =========左上標題========= */
-    #lt{
-        padding-left: 20px;
-        font-size: 20px;
-        line-height: 25px;
-    }
 
     /* =========左下文字========= */
      #word{
@@ -303,6 +298,14 @@ main{
         line-height: 30px;
         letter-spacing: 1.2px;
     }
+}
+
+@media screen and (max-width:110px){
+    /* =========圖片區=========*/
+    /* #imgDev{
+        width: 600px;
+        right: -20px;
+    } */
 }
 
 

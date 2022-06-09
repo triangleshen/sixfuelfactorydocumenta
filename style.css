@@ -82,17 +82,17 @@ main{
     background-image: radial-gradient(rgba(255,255,255,.6),rgba(255,255,255,.5),rgba(255,255,255,.5),rgba(255,255,255,.0),rgba(255,255,255,0));
 
     position: absolute;
-    top:240px;
+    top:220px;
     left:190px;
-    transform: rotate(-7deg);
+    transform: rotate(-6deg);
 
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    -webkit-gap:30px;
-    gap: 30px;
+    /* -webkit-gap:30px; */
+    /* gap: 30px; */
 }
 
 .keyWords{
@@ -100,7 +100,7 @@ main{
     letter-spacing: 2px;
     cursor: pointer;
     z-index: 5;
-    padding: 7px 0px;
+    padding: 23px 10px;
 }
 
 
@@ -134,7 +134,7 @@ main{
 #word_title{
     display: flex;
     align-items: center;
-    gap: 20px;
+    /* gap: 20px; */
     font-size: 50px;
 }
 
@@ -231,16 +231,17 @@ main{
     #topic{
         width: 400px;
         
-        top:175px;
+        top:170px;
         left:120px;
-        transform: rotate(-5deg);
-        -webkit-gap:15px;
-        gap: 15px;
+        transform: rotate(-6deg);
+        /* -webkit-gap:15px; */
+        /* gap: 15px; */
     }
 
     .keyWords{
         font-size: 26px;
-        padding: 7px 0px;
+        line-height: 25px;
+        padding: 15px 5px;
     }
 
 }
@@ -305,7 +306,7 @@ main{
     
     /* =========左上標題========= */
     #lt{
-        padding-top: 70px;
+        padding-top: 0px;
         padding-left: 20px;
         font-size: 24px;
         line-height: 28px;
@@ -322,13 +323,14 @@ main{
         
         top:180px;
         left:130px;
-        -webkit-gap:20px;
-        gap: 20px;
+        /* -webkit-gap:20px; */
+        /* gap: 20px; */
     }
 
     .keyWords{
         font-size: 26px;
-        padding: 7px 0px;
+        line-height: 25px;
+        padding: 17px 5px;
     }
 
 }

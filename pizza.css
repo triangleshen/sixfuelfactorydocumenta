@@ -45,6 +45,7 @@
     position: relative;
     font-size: 36px;
     letter-spacing: 2px;
+    padding: 7px 0px;
     text-orientation: upright;
 
     background-image: radial-gradient(rgba(255,255,255,.8),rgba(255,255,255,.3),rgba(255,255,255,.5),rgba(255,255,255,.0),rgba(255,255,255,0));

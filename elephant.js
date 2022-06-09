@@ -184,7 +184,7 @@ function clickBtn(e){
         back.classList.add('animate__fadeInDown');
 
         for(let i = 1; i < choose_topic.length;i++){
-            word_text.innerHTML += `<div class="txt animate__animated animate__fadeInDown">${choose_topic[i]}</div>`;
+            word_text.innerHTML += `<div class="txt animate__animated animate__fadeInDown"><span style="font-weight:bold;font-size:28px"># </span>${choose_topic[i]}</div>`;
         }
 
     }else{

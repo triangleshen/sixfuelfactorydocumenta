@@ -300,12 +300,58 @@ main{
     }
 }
 
-@media screen and (max-width:110px){
+@media screen and (max-width:1100px){
     /* =========圖片區=========*/
-    /* #imgDev{
+    #imgDev{
         width: 600px;
-        right: -20px;
-    } */
+        top: 400px;
+        right: -300px;
+    }
+
+    #topic{
+        top:-300px;
+        left: -350px;
+    }
+
+    .keyWords:nth-child(1){
+        top: 20px;
+        left: 100px;
+    }
+
+    .keyWords:nth-child(3){
+        top: 300px;
+        left: 30px;
+    }
+
+    .keyWords:nth-child(4){
+        top: 10px;
+        left: 260px;
+    }
+
+    .keyWords:nth-child(5){
+        top: 130px;
+        left: 180px;
+        text-align: start;
+    }
+
+    .keyWords:nth-child(6){
+        top: 350px;
+        left: 30%;
+    }
+
+    .keyWords:nth-child(7){
+        top: 50px;
+    }
+
+    .keyWords:nth-child(8){
+        top: 170px;
+        left: 45%;
+    }
+
+    .keyWords:nth-child(9){
+        top: 40%;
+        left: 54%;
+    }
 }
 
 
